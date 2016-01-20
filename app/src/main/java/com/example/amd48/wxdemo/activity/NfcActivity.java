@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.example.amd48.wxdemo.R;
 
-public class Main2Activity extends Activity {
+public class NfcActivity extends Activity {
 
     private static final String TAG = "xyf/nfc";
     public static final String MIME_TEXT_PLAIN = "text/plain";
@@ -26,7 +26,7 @@ public class Main2Activity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.v(TAG, "onCreate");
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_nfc);
 
         mTextView = (TextView)findViewById(R.id.textViewTagId);
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);

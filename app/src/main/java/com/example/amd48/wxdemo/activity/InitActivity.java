@@ -21,7 +21,7 @@ public class InitActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(InitActivity.this, Main2Activity.class));
+                startActivity(new Intent(InitActivity.this, NfcActivity.class));
 //                finish();
             }
         });
